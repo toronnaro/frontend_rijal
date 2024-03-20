@@ -12,8 +12,7 @@
 
 <body>
     <div class="wrapper">
-        <form action="/registeruser" method="POST">
-            @csrf
+        <form>
             <h1>Register</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username" required name="name" id="">

@@ -12,7 +12,7 @@
 
 <body>
     <div class="wrapper">
-        <form action="/loginproses" method="POST">
+        <form>
             @csrf
             <h1>Login</h1>
             <div class="input-box">
